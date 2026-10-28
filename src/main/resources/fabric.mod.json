@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "lookthatclouds",
+  "version": "${version}",
+  "name": "Look That Clouds",
+  "description": "An independent experimental cloud mod for Minecraft.",
+  "authors": ["carlaun12"],
+  "contact": {
+    "sources": "https://github.com/carlaun12/look-that-clouds"
+  },
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.carlaun12.lookthatclouds.LookThatCloudsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
